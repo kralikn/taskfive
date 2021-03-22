@@ -21,7 +21,7 @@ const Hotel = ({hotel}) => {
             {more ? <p>{city}, stars: {stars}</p> : null}
             <button onClick={showMore}>{!more ? "show more" : "show less"}</button>
             {more ? <button onClick={handleSubscription}>request more info</button> : null}
-            {subscription ? <Subscription /> : null}
+            {subscription ? <Subscription name={name}/> : null}
         </div>
     )
 }
