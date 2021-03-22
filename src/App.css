@@ -1,0 +1,14 @@
+.App {
+  text-align: center;
+}
+
+.hotel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button {
+  width: 40%;
+  margin: .5rem 0;
+}
